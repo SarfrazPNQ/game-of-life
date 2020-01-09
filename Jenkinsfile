@@ -9,6 +9,6 @@ node{
     }
     
     stage('Artifactory'){
-        archiveArtifacts 'gameoflife/gameoflife-web/target/gameoflife.war'
+        archiveArtifacts 'gameoflife-web/target/gameoflife.war'
     }
 	}
